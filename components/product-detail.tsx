@@ -143,7 +143,7 @@ export function ProductDetail({
               src={image || "/placeholder.svg"}
               alt={title}
               fill
-              className="object-fill"
+              className="object-cover"
               priority
             />
           </div>
@@ -227,7 +227,7 @@ export function ProductDetail({
       </div>
 
       {/* Image or Video */}
-      {title === "Kambu Puttu Redimix" && (
+      {title === "Kambu Puttu Redimix Powder" && (
   <div className="relative flex w-full flex-col gap-4 overflow-hidden rounded-lg shadow-lg md:w-1/2">
     {/* Video 1 */}
     <div className="aspect-[4/3] w-full overflow-hidden rounded-lg">
