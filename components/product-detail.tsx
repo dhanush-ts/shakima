@@ -230,7 +230,7 @@ export function ProductDetail({
       {/* Videos (Only for Kambu Puttu) */}
 {title === "Kambu Puttu Redimix Powder" && (
   <div
-    className={`mb-12 grid grid-cols-1 gap-6 sm:grid-cols-2 ${
+    className={`mb-12 mx-8 grid grid-cols-1 gap-6 sm:grid-cols-2 ${
       isLoaded ? "animate-fade-up" : "opacity-0"
     }`}
     style={{ animationDelay: "150ms", animationFillMode: "both" }}
