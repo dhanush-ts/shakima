@@ -3,7 +3,7 @@ import { ProductCard } from "./product-card"
 const products = [
   {
     title: "Adai Mix",
-    image: "/adai.jepg",
+    image: "/adai.jpeg",
     href: "/products/adai-mix",
     description: "Crispy millet crepe packed with protein and traditional spices.",
   },

@@ -40,7 +40,7 @@ export default function PongalMixPage() {
   return (
     <ProductDetail
       title="Millet Pongal Mix"
-      image="/images/pongal-mix.jpg"
+      image="/pongal.jpeg"
       nutrition={nutrition}
       steps={steps}
       ingredients={ingredients}

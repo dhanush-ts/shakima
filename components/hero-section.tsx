@@ -36,7 +36,7 @@ export function HeroSection() {
         >
           <div className="relative h-44 w-44 md:h-56 md:w-56 lg:h-64 lg:w-64">
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               alt="Shakima's Mix Logo"
               fill
               className="object-contain"

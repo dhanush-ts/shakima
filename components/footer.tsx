@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border bg-card px-4 py-10">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 text-center">
         <Image
-          src="/images/logo.png"
+          src="/logo.png"
           alt="Shakima's Mix"
           width={56}
           height={56}

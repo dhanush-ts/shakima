@@ -119,7 +119,7 @@ export function ProductDetail({
             </button>
 
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               alt="Shakima's Mix"
               width={40}
               height={40}
@@ -230,7 +230,7 @@ export function ProductDetail({
       <footer className="mt-16 border-t border-border bg-card px-4 py-8">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-3 text-center">
           <Image
-            src="/images/logo.png"
+            src="/logo.png"
             alt="Shakima's Mix"
             width={44}
             height={44}
