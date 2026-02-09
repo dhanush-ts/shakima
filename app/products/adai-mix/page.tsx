@@ -40,7 +40,7 @@ export default function AdaiMixPage() {
   return (
     <ProductDetail
       title="Adai Mix"
-      image="/images/adai-mix.jpg"
+      image="/adai.jepg"
       nutrition={nutrition}
       steps={steps}
       ingredients={ingredients}

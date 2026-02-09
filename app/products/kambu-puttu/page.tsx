@@ -45,9 +45,9 @@ const ingredientsMalay = "Beras Merah."
 export default function RedRicePuttuPage() {
   return (
     <ProductDetail
-      title="Red Rice Puttu Redimix Powder"
-      image="/images/red-rice-puttu.jpg"
-      nutrition={nutrition}
+      title="Kambu Puttu Redimix Powder"
+      image="/kambu.jpeg"
+      // nutrition={nutrition}
       steps={steps}
       ingredients={ingredients}
       stepsMalay={stepsMalay}

@@ -3,7 +3,7 @@ import { ProductCard } from "./product-card"
 const products = [
   {
     title: "Adai Mix",
-    image: "/images/adai-mix.jpg",
+    image: "/adai.jepg",
     href: "/products/adai-mix",
     description: "Crispy millet crepe packed with protein and traditional spices.",
   },
@@ -15,7 +15,7 @@ const products = [
   },
   {
     title: "Millet Pongal Mix",
-    image: "/images/pongal-mix.jpg",
+    image: "/pongal.jpeg",
     href: "/products/pongal-mix",
     description: "Classic South Indian pongal made with nutritious millets.",
   },
@@ -24,6 +24,12 @@ const products = [
     image: "/images/red-rice-puttu.jpg",
     href: "/products/red-rice-puttu",
     description: "Nutritious red rice puttu mix, steamed to fluffy perfection.",
+  },
+  {
+    title: "Kambu Puttu Redimix",
+    image: "/kambu.jpeg",
+    href: "/products/kambu-puttu",
+    description: "Nutritious kambu puttu mix, steamed to fluffy perfection.",
   },
 ]
 
