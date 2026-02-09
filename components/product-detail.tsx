@@ -226,6 +226,38 @@ export function ProductDetail({
         </div>
       </div>
 
+      {/* Image or Video */}
+      {title === "Kambu Puttu Redimix" && (
+  <div className="relative flex w-full flex-col gap-4 overflow-hidden rounded-lg shadow-lg md:w-1/2">
+    {/* Video 1 */}
+    <div className="aspect-[4/3] w-full overflow-hidden rounded-lg">
+      <video
+        src="/vdo1.mp4" // dummy path
+        controls
+        autoPlay
+        muted={false} // 🔊 audio ON
+        loop
+        playsInline
+        className="h-full w-full object-cover"
+      />
+    </div>
+
+    {/* Video 2 */}
+    <div className="aspect-[4/3] w-full overflow-hidden rounded-lg">
+      <video
+        src="/vdo2.mp4" // dummy path
+        controls
+        muted={false} // 🔊 audio ON
+        loop
+        playsInline
+        className="h-full w-full object-cover"
+      />
+    </div>
+  </div>
+)}
+
+
+
       {/* Footer */}
       <footer className="mt-16 border-t border-border bg-card px-4 py-8">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-3 text-center">
