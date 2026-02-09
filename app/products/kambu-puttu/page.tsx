@@ -47,7 +47,7 @@ export default function RedRicePuttuPage() {
     <ProductDetail
       title="Kambu Puttu Redimix Powder"
       image="/kambu.jpeg"
-      // nutrition={nutrition}
+      nutrition={nutrition}
       steps={steps}
       ingredients={ingredients}
       stepsMalay={stepsMalay}

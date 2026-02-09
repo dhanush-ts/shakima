@@ -40,7 +40,7 @@ export default function ParuppuSadhamPage() {
   return (
     <ProductDetail
       title="Millet Paruppu Sadham Mix"
-      image="/images/paruppu-sadham.jpg"
+      image="/parupu.jpeg"
       nutrition={nutrition}
       steps={steps}
       ingredients={ingredients}

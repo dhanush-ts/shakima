@@ -9,7 +9,7 @@ const products = [
   },
   {
     title: "Millet Paruppu Sadham",
-    image: "/images/paruppu-sadham.jpg",
+    image: "/parupu.jpeg",
     href: "/products/paruppu-sadham",
     description: "Comforting millet-lentil rice, a wholesome one-pot meal.",
   },
@@ -21,7 +21,7 @@ const products = [
   },
   {
     title: "Red Rice Puttu Redimix",
-    image: "/images/red-rice-puttu.jpg",
+    image: "/red.jpeg",
     href: "/products/red-rice-puttu",
     description: "Nutritious red rice puttu mix, steamed to fluffy perfection.",
   },

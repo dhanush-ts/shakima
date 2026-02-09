@@ -46,7 +46,7 @@ export default function RedRicePuttuPage() {
   return (
     <ProductDetail
       title="Red Rice Puttu Redimix Powder"
-      image="/images/red-rice-puttu.jpg"
+      image="/red.jpeg"
       nutrition={nutrition}
       steps={steps}
       ingredients={ingredients}
