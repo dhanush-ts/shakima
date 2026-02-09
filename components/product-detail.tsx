@@ -143,7 +143,7 @@ export function ProductDetail({
               src={image || "/placeholder.svg"}
               alt={title}
               fill
-              className="object-cover"
+              className="object-fill"
               priority
             />
           </div>
