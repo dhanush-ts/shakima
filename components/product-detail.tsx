@@ -227,15 +227,21 @@ export function ProductDetail({
       </div>
 
       {/* Image or Video */}
-      {title === "Kambu Puttu Redimix Powder" && (
-  <div className="relative flex w-full flex-col gap-4 overflow-hidden rounded-lg shadow-lg md:w-1/2">
+      {/* Videos (Only for Kambu Puttu) */}
+{title === "Kambu Puttu Redimix Powder" && (
+  <div
+    className={`mb-12 grid grid-cols-1 gap-6 sm:grid-cols-2 ${
+      isLoaded ? "animate-fade-up" : "opacity-0"
+    }`}
+    style={{ animationDelay: "150ms", animationFillMode: "both" }}
+  >
     {/* Video 1 */}
-    <div className="aspect-[4/3] w-full overflow-hidden rounded-lg">
+    <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
       <video
-        src="/vdo1.mp4" // dummy path
+        src="/vdo1.mp4"
         controls
         autoPlay
-        muted={false} // 🔊 audio ON
+        muted={false}
         loop
         playsInline
         className="h-full w-full object-cover"
@@ -243,11 +249,11 @@ export function ProductDetail({
     </div>
 
     {/* Video 2 */}
-    <div className="aspect-[4/3] w-full overflow-hidden rounded-lg">
+    <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
       <video
-        src="/vdo2.mp4" // dummy path
+        src="/vdo2.mp4"
         controls
-        muted={false} // 🔊 audio ON
+        muted={false}
         loop
         playsInline
         className="h-full w-full object-cover"
@@ -255,6 +261,7 @@ export function ProductDetail({
     </div>
   </div>
 )}
+
 
 
 
